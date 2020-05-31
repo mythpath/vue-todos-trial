@@ -2,7 +2,7 @@
  * @Author: Bill Lee
  * @Date: 2020-04-14 18:29:55
  * @LastEditors: Bill Lee
- * @LastEditTime: 2020-04-18 16:28:41
+ * @LastEditTime: 2020-05-13 22:17:20
  * @Description:
  -->
 
@@ -18,7 +18,7 @@
             <!-- 显示标题和数字模块 -->
             <h1 class="title-page">
                 <span class="title-wrapper">{{todo.title}}</span><!-- title:标题 绑定标题 -->
-                <span class="count-list">{{todo.count||0}}</span><!-- count:数量 绑定代办单项熟练-->
+                <span class="count-list">{{todo.count||0}}</span><!-- count:数量 绑定代办单项数量-->
             </h1>
             <!-- 右边显示删除图标和锁定图标的模块 -->
             <div class="nav-group right"><!-- 右边的删除，锁定图标容器-->
